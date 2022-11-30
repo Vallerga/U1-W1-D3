@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+
+main {
+    padding-top: 10%;
+    text-align: left;
+    margin: 0 20%;   
+}
+
+header {
+    text-align: center;
+    color: #06918f;
+}
+
+.logo {
+    width: 25%;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin-top: 2vh;
+    width: 100%;
+}
+
+#logo-title {
+    border-top: 2px solid #ffcc00;
+    padding-top: 10px;
+}
+
+#main-title {
+    text-align: center;
+    font-size: 30px;
+}
+
+#img-description {
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+section #img-focaccia {
+    height: 10%;
+    text-align: center;
+}
+
+#img-footer {
+    color: grey;
+    text-align: center;
+}
+
+#link {
+    color: red;
+}
+
+ul, ol, li {
+    padding-top: 0.7em;
+}
+
+footer {
+    margin: 0 20%;
+    padding: 1em 0;
+}
