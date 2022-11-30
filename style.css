@@ -5,12 +5,15 @@
 main {
     padding-top: 10%;
     text-align: left;
-    margin: 0 20%;   
 }
 
 header {
     text-align: center;
     color: #06918f;
+}
+
+.container {
+    margin: 0 40vh;
 }
 
 .logo {
@@ -34,13 +37,16 @@ header {
 }
 
 #img-description {
-    font-size: 0.8em;
+    font-size: 20px;
     text-align: justify;
 }
 
-section #img-focaccia {
-    height: 10%;
+.img-focaccia {
     text-align: center;
+}
+
+.img-focaccia img {
+    width: 100%;
 }
 
 #img-footer {
@@ -57,6 +63,5 @@ ul, ol, li {
 }
 
 footer {
-    margin: 0 20%;
     padding: 1em 0;
 }
