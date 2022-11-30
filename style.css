@@ -9,7 +9,7 @@ main {
 
 header {
     text-align: center;
-    color: #06918f;
+    color: rgb(14, 86, 94);
 }
 
 .container {
@@ -27,18 +27,22 @@ header {
 }
 
 #logo-title {
-    border-top: 2px solid #ffcc00;
-    padding-top: 10px;
+    background-color: rgb(253,251,241);
+    margin: 1vh 0;
+    padding: 1vh 0;
+    border-top: 2px solid rgb(255,216,119);
 }
 
 #main-title {
     text-align: center;
     font-size: 30px;
+    margin: 1em 0;
 }
 
 #img-description {
     font-size: 20px;
     text-align: justify;
+    margin: 1em 0;
 }
 
 .img-focaccia {
@@ -47,6 +51,7 @@ header {
 
 .img-focaccia img {
     width: 100%;
+    border-radius: 10px;
 }
 
 #img-footer {
@@ -56,6 +61,21 @@ header {
 
 #link {
     color: red;
+    border-left: solid 1px orange;
+    padding: 0 20px;
+    margin: 2em 0;
+}
+
+h3 {
+    margin: 1em 0;
+}
+
+.list {
+    margin: 1em 0;
+}
+
+#bluebar {
+    border-bottom: solid 1px #06918f;
 }
 
 ul, ol, li {
